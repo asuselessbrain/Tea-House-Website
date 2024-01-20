@@ -16,6 +16,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'header-color': '#1C1C1C',
+                    'p-color': '#777'
+                  }
+                }
+              }
+            }
+          </script>
+
     <style>
         .font{
             font-family: 'Manrope', sans-serif;
@@ -97,6 +111,33 @@
                       <p class="text-[#777] font-semibold">Creamer could be replaced by fresh milk</p>
                     </div>
                   </div>
+            </div>
+        </section>
+
+        <!-- great tea section -->
+
+        <section class="flex flex-col lg:flex-row my-28 items-center gap-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 flex-1">
+                <div class="h-[136px] bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10"></div>
+                <div class="row-span-2 bg-[#E6A6231A] flex items-center justify-center py-12"><img src="./images/fresh-1.png" alt=""></div>
+                <div class="row-span-2 bg-[#574A271A] flex items-center justify-center py-12"><img src="./images/fresh-2.png" alt=""></div>
+                <div class="h-[136px] bg-gradient-to-r from-[#d4d4d4] to-[#FFFFFF]"></div>
+
+            </div>
+
+            <div class="flex-1 space-y-6">
+                <h3 class="header-color text-5xl font-extrabold">Great Tea, 
+                    <br>Freshly Presented</h3>
+ 
+                <p class="p-color font-medium">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+
+                <h4 class="header-color text-2xl font-extrabold">Unique Taste</h4>
+
+                <p class="p-color font-medium">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+
+                <h4 class="header-color text-2xl font-extrabold">Premium Quality</h4>
+
+                <p class="p-color font-medium">Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
         </section>
     </main>
